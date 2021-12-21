@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+.manager__bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+}
+.bio__info {
+    flex: 0.5;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* background-color: green; */
+}
+
+
+
+.bio__info img  {
+    object-fit: contain;
+    width: 80%;
+    height: 20rem;
+    margin-top: 3rem;
+}
+
+.information {
+    width: 100%;
+}
+
+.information h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+.information span {
+    font-family: 'Shadows Into Light', cursive;
+    color: red;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+    margin-left: 1rem;
+}
+
+.clubs {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    margin: 0 auto;
+    width: 80%;
+    letter-spacing: 0.1rem;
+    color: red;
+}
+
+.bio__description {
+    flex: 0.5;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: orange; */
+}
+
+.manager__description {
+    flex: 1;
+    padding-top: 2rem;
+    font-size: 1.4rem;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.manager__titles {
+    flex: 0.5;
+    width: 100%;
+}
+
+.titles__list {
+    width: 100%;
+    height: 100%;
+    padding:0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.titles__list li {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.titles__list li span {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.6rem;
+    color: red;
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+
+@media (max-width:900px) {
+
+    .information p {
+        font-size: 1.3rem;
+    }
+
+    .bio__info img  {
+        object-fit: contain;
+        width: 90%;
+        height: 30rem;
+    }
+
+    .manager__bio{
+        flex-direction: column;
+    }
+
+    .manager__description {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .manager__titles {
+        margin:2rem 0rem 4rem 0rem;
+    }
+
+
+}

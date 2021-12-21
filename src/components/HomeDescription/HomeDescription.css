@@ -1,0 +1,42 @@
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.home__managers {
+    width: 80%;
+    margin: 0 auto;
+}
+.home__managers h2 {
+    font-size: 1.8rem;
+}
+
+.home__players {
+    width: 80%;
+    margin: 0 auto 7rem auto;
+}
+.home__managers p,.home__players p {
+    font-size: 1.2rem;
+}
+.home__players h3 {
+    font-size: 1.8rem;
+}
+
+@media (max-width: 800px) {
+    .title {
+        font-size: 1.7rem;
+    }
+
+    .home__managers {
+        margin-bottom: 6rem;
+    }
+
+    .home__managers h2,.home__players h3 {
+        font-size: 1.4rem;
+    }
+
+    .home__managers p,.home__players p {
+        font-size: 1.1rem;
+    }
+}

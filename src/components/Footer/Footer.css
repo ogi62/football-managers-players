@@ -1,0 +1,13 @@
+.footer {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 1rem;
+    font-style: italic;
+}
+
+.footer p:first-child{
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+}
